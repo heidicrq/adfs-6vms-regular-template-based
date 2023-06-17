@@ -7,7 +7,7 @@
       "metadata": {
         "description": "The region to deploy the resources into, e.g. East US."
       },
-      "defaultValue": "East Asia"
+      "defaultValue": "SouthEast Asia"
     },
     "storageAccountType": {
       "type": "string",
@@ -501,7 +501,7 @@
             "value": "[variables('availabilitySetNames')[0]]"
           },
           "vmCount": {
-            "value": 2
+            "value": 1
           },
           "storageAccountNamePrefix": {
             "value": "[variables('storageAccountNamePrefix')]"
@@ -542,7 +542,7 @@
             "value": "[variables('availabilitySetNames')[1]]"
           },
           "vmCount": {
-            "value": 2
+            "value": 1
           },
           "storageAccountNamePrefix": {
             "value": "[variables('storageAccountNamePrefix')]"
@@ -583,7 +583,7 @@
             "value": "[variables('availabilitySetNames')[2]]"
           },
           "vmCount": {
-            "value": 2
+            "value": 1
           },
           "storageAccountNamePrefix": {
             "value": "[variables('storageAccountNamePrefix')]"

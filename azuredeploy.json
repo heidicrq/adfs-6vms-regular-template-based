@@ -6,7 +6,8 @@
       "type": "string",
       "metadata": {
         "description": "The region to deploy the resources into, e.g. East US."
-      }
+      },
+      "defaultValue": "East Asia"
     },
     "storageAccountType": {
       "type": "string",
@@ -175,7 +176,8 @@
       "type": "string",
       "metadata": {
         "description": "The name of the local Administrator of the virtual machines"
-      }
+      },
+      "defaultValue": "admin"
     },
     "adminPassword": {
       "type": "securestring",
@@ -183,7 +185,8 @@
       "maxLength": 40,
       "metadata": {
         "description": "The password for the local Administrator account of the virtual machines"
-      }
+      },
+      "defaultValue": "P@ssw0rd1234"
     }
   },
   "variables": {

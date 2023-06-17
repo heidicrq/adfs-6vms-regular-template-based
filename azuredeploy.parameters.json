@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-          "value": "North Europe"
+          "value": "East Asia"
         },
         "storageAccountType": {
           "value": "Standard_LRS"
@@ -21,7 +21,7 @@
           "value": "Standard_A0"
         },
         "adminUsername": {
-          "value": "AzureAdmin",
+          "value": "AzureAdmin"
         },
         "adminPassword": {
           "value": "Pass@word1!?"

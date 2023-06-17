@@ -407,21 +407,15 @@
           "ipAddresses": {
             "value": [
               "[parameters('addc01NicIPAddress')]",
-              "[parameters('addc02NicIPAddress')]",
               "[parameters('adfs01NicIPAddress')]",
-              "[parameters('adfs02NicIPAddress')]",
-              "[parameters('wap01NicIPAddress')]",
-              "[parameters('wap02NicIPAddress')]"
+              "[parameters('wap01NicIPAddress')]"
             ]
           },
           "nicNames": {
             "value": [
               "[concat(parameters('addcVmNamePrefix'),'1-nic')]",
-              "[concat(parameters('addcVmNamePrefix'),'2-nic')]",
               "[concat(parameters('adfsVmNamePrefix'),'1-nic')]",
-              "[concat(parameters('adfsVmNamePrefix'),'2-nic')]",
-              "[concat(parameters('wapVmNamePrefix'),'1-nic')]",
-              "[concat(parameters('wapVmNamePrefix'),'2-nic')]"
+              "[concat(parameters('wapVmNamePrefix'),'1-nic')]"
             ]
           },
           "subnetIds": {
